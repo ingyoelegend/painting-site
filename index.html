@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Free Canvas</title>
+  <link rel="stylesheet" href="index.css">
+
+
+</head>
+
+
+<body>
+
+
+
+<canvas id = "jscanvas" class = "canvas">
+
+
+
+</canvas>
+
+
+
+<div id = "jscolor" class = "color">
+
+
+  <div id = "jsbrush-range" class = "brush-range">
+  <i class="fas fa-paint-brush fa-lg"></i>
+  <input type="range" id = "jsbrush" name="" value="2.5" min="0.1" max="5.0" step="0.1">
+  </div>
+
+
+<div id = "jscolor-mode" class = "color-mode">
+
+<i class="fas fa-fill fa-2x" id = "fillmode"></i>
+<i class="far fa-save fa-2x" id = "savemode"></i>
+
+</div>
+
+
+
+
+<div id = "jscolor-choice" class = "color-choice">
+
+  <div class = "color-item jschoice"  style = "background-color:black"></div>
+  <div class = "color-item jschoice"  style = "background-color:white"></div>
+  <div class = "color-item jschoice"  style = "background-color:red"></div>
+  <div class = "color-item jschoice"  style = "background-color:orange"></div>
+  <div class = "color-item jschoice"  style = "background-color:yellow"></div>
+  <div class = "color-item jschoice"  style = "background-color:green"></div>
+  <div class = "color-item jschoice"  style = "background-color:blue"></div>
+  <div class = "color-item jschoice"  style = "background-color:indigo"></div>
+  <div class = "color-item jschoice"  style = "background-color:purple"></div>
+
+  <div class = "color-item" id = "customcolor">
+
+    <label for="custom"><i class="fas fa-palette fa-2x"></i></label>
+
+
+  </div>
+
+  <input type="color" id = "custom">
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<script src="https://kit.fontawesome.com/d19eaaab15.js" crossorigin="anonymous">
+</script>
+
+<script src="index.js" charset="utf-8"></script>
+</body>
+
+
+
+</html>
