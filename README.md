@@ -1,6 +1,8 @@
 # Paintbrush Web App
 
-Simple Web Paintbrush app using [Vanilla JS](http://vanilla-js.com/)
+Repository for Web Paintbrush app using [Vanilla JS](http://vanilla-js.com/)
+
+Lecture from [NomadCoders](https://nomadcoders.co/javascript-for-beginners-2)
 
 ![paintbrush](https://user-images.githubusercontent.com/43776784/107315494-2d476300-6ada-11eb-9f95-e241589b68c3.gif)
 <br/>
@@ -23,3 +25,5 @@ Simple Web Paintbrush app using [Vanilla JS](http://vanilla-js.com/)
 ### Tech Stack
 * Vanilla JS
 <br/>
+
+
